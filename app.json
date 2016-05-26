@@ -1,0 +1,16 @@
+{
+  "name": "testk1",
+  "description": "testdemo",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+    "easysms"
+  ],
+  "buildpacks": [
+
+  ]
+}
