@@ -30,7 +30,9 @@
 				<artifactId>heroku-maven-plugin</artifactId>
 				<version>0.5.1</version>
 				<configuration>
-					<appName>ejemplo</appName>
+					<processTypes>
+						<web>java $JAVA_OPTS -cp target/classes:target/dependency/* Main</web>
+					</processTypes>
 				</configuration>
 			</plugin>
 		</plugins>
