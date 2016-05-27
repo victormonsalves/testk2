@@ -1,18 +1,9 @@
 {
-  "name": "testk2",
-  "description": "aspnet5",
-  "scripts": {
-  },
-  "env": {
-  },
-  "formation": {
-    "web": {
-      "quantity": 1
-    }
-  },
-  "addons": [
-
-  ],
+  "name": "ASP.NET Core on Heroku",
+  "description": "This will deploy a very basic ASP.NET Core Framework App and run it on Heroku using the new ASP.NET Core Buildpack",
+  "repository": "http://herokumx.github.io/herokumxnet/",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": [".NET", "Microsoft", "ASP.NET"],
   "buildpacks": [
     {
       "url": "https://github.com/softtrendsllc/aspnet5-buildpack.git"
