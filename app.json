@@ -1,0 +1,21 @@
+{
+  "name": "testk2",
+  "description": "aspnet5",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/softtrendsllc/aspnet5-buildpack.git"
+    }
+  ]
+}
